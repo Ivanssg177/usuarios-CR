@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Crear nuevo usuario</h1>
+        <form action="/crear_usuario" method="POST">
+            <label for="input_nombre">Nombre:</label> 
+            <br>
+            <input type="text" name="nombre" id="input_nombre" required>
+            <br>
+            <label for="input_apellido">Apellido:</label>
+            <br>
+            <input type="text" name="apellido" id="input_apellido" required >
+            <br>
+            <label for="input_email">Email:</label>
+            <br>
+            <input type="email" name="email" id="input_email" required>
+            <br>
+            <input type="submit" value="Crear usuario">
+            
+        </form>
+
+</body>
+</html>
